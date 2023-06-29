@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flower Website</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='flower.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+  </head>
+  <body>
+    <header>
+      <h1> Welcome to our Flower Paradise !! </h1>
+  </header>
+  <nav>
+      <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="contact">Contact</a></li>
+      </ul>
+  </nav> 
+  <div class="background-homeimage2">
+      <div class="container2">
+        <h3> Login </h3>
+        <form >
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+        </form>
+      </div>
+      <div class="text"> 
+        <p>Our Pricing!! </p> 
+      </div>
+
+      <table border= "2" class="table1">
+        <tr>
+          <td> Bridal Bouquets </td>
+          <td> $150 to $400 </td>
+        </tr>
+        <tr>
+          <td> BM Bouquets</td>
+          <td> $90 to $300 </td>
+        </tr>
+        <tr>
+          <td>Buttonholes</td>
+          <td> $25 to $40</td>
+        </tr>
+        <tr>
+          <td>Venue Decorations</td>
+          <td> Starting at $50</td>
+        </tr>
+        <tr>
+          <td>Table Decorations </td>
+          <td> Starting at $45</td>
+        </tr>
+
+        <tr>
+          <td>Arch Florals  </td>
+          <td> Starting at $150</td>
+        </tr>
+        <tr>
+          <td>Confetti Petals   </td>
+          <td> Starting at $30</td>
+        </tr>
+        <tr>
+          <td>Candles (Staggered)  </td>
+          <td> Starting at $30</td>
+        </tr>
+        <tr>
+          <td>Confetti Petals   </td>
+          <td> $6 each</td>
+        </tr>
+        <tr>
+          <td>Candle Vases   </td>
+          <td> $10 each</td>
+        </tr>
+        <tr>
+          <td>Loose Florals <br> (For cakes & hair)   </td>
+          <td> Starting at $30</td>
+        </tr>
+      </table>
+      <div class="features">
+        <div class="feature">
+          <img src="static/feature1.jpg" alt="Feature 1">
+          <h3>Exquisite Selection</h3>
+          <p>Choose from a wide variety of stunning flowers</p>
+         </div>
+         <div class="feature">
+          <img src="static/delivery_guy.png" alt="Feature 2">
+          <h3>Same-Day Delivery</h3>
+          <p>Get your flowers delivered right to your doorstep</p>
+        </div>
+        <div class="feature">
+          <img src="static/member1.png" alt="Feature 3">
+          <h3>Expert Florists</h3>
+          <p>Our skilled florists create beautiful arrangements</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p>&copy; 2023 Flower Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
